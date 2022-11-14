@@ -18,4 +18,7 @@
     - say_hello('sky')
     - help(say_hello)
 
-
+- Export to pypi
+    - run "python setup.py sdist bdist_wheel", it will produce "dist" folder.
+    - pip install twine
+    - twine upload dist/*
